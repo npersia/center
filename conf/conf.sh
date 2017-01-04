@@ -3,3 +3,12 @@ FILES_MAIN_APPSERVER=$(pwd)"/../myfiles/mainAppServer"
 PORT_MAIN_APPSERVER=8000
 ENV_MAIN_APPSERVER="dev"
 IMAGE_MAIN_APPSERVER="npersia/bottle-dev"
+
+
+
+NAME_WEATHERCENTER_NODERED="weatherCenterNodeRed"
+FILES_WEATHERCENTER_NODERED=$(pwd)"/../myfiles/weatherCenter/nodeRed/data"
+PORT_WEATHERCENTER_NODERED=8001
+ENV_WEATHERCENTER_NODERED="dev"
+IMAGE_WEATHERCENTER_NODERED="nodered/node-red-docker"
+
