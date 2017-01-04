@@ -1,4 +1,2 @@
-NAME_CENTER="center"
-MYFILES=$(pwd)"/../myfiles"
-
-source ./center/install.sh
+source ../conf/conf.sh
+source ./mainAppServer/install.sh

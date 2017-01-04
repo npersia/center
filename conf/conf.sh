@@ -1,0 +1,5 @@
+NAME_MAIN_APPSERVER="mainAppServer"
+FILES_MAIN_APPSERVER=$(pwd)"/../myfiles/mainAppServer"
+PORT_MAIN_APPSERVER=8000
+ENV_MAIN_APPSERVER="dev"
+IMAGE_MAIN_APPSERVER="npersia/bottle-dev"

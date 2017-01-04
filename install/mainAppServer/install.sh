@@ -1,0 +1,6 @@
+ENV_NAME=$NAME_MAIN_APPSERVER-$ENV_MAIN_APPSERVER
+
+docker stop $ENV_NAME
+docker rm $ENV_NAME
+docker create -it -p $PORT_MAIN_APPSERVER:8000 -v $FILES_MAIN_APPSERVER:/myfiles --name=$ENV_NAME $IMAGE_MAIN_APPSERVER /bin/bash
+docker start $ENV_NAME

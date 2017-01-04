@@ -3,7 +3,7 @@ from bottle import route, default_app, template, run, static_file, error
 
 @route('/')
 def index():
-    return template("./center/page/center.html")
+    return template("./page/center.html")
 
 
 @route('/static/<filepath:path>')
