@@ -3,7 +3,18 @@ from bottle import route, default_app, template, run, static_file, error
 
 @route('/')
 def index():
-    return template("./page/center.html")
+    
+    weather_icon = "1483398180_weather-01.png"
+    temp = "27"
+    lugar = "Parque Chacabuco, Buenos Aires"
+    estado_clima = "Soleado"
+    prob_lluvia = "15"
+    porc_humedad = "30"
+    vel_viento = "23"
+
+
+    
+    return template("./page/center.html",t_weather_icon=weather_icon,t_temp=temp,t_lugar=lugar,t_estado_clima=estado_clima,t_prob_lluvia=prob_lluvia,t_porc_humedad=porc_humedad,t_vel_viento=vel_viento)
 
 
 @route('/static/<filepath:path>')
