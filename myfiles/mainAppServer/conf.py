@@ -1,1 +1,1 @@
-weatherCondition = "http://localhost:8001/weathercondition"
+weatherCondition = "http://noderedweather:1880/weathercondition"

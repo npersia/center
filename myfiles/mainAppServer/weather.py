@@ -9,4 +9,4 @@ def getWeather(lat,lon):
     return r.json()
 
 
-print(getWeather("-34.6421149","-58.4612144"))
+#print(getWeather("-34.6421149","-58.4612144"))
