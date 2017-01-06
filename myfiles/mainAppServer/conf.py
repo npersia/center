@@ -1,1 +1,1 @@
-weatherCondition = "http://noderedweather:1880/weathercondition"
+weatherCondition = "http://noderedweathercenter:1880/weathercondition"

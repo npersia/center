@@ -15,7 +15,7 @@ mainAppServer-dev:
     ports:
         - "8000:8000"
     links:
-        - "weatherCenterNodeRed-dev:noderedweather"
+        - "weatherCenterNodeRed-dev:noderedweathercenter"
     volumes:
         - "./myfiles/mainAppServer:/myfiles"
 
