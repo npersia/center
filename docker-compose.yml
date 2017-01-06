@@ -18,3 +18,17 @@ mainAppServer-dev:
         - "weatherCenterNodeRed-dev:noderedweather"
     volumes:
         - "./myfiles/mainAppServer:/myfiles"
+
+
+
+subteCenterRedis-dev:
+    image: npersia/redis-dev
+
+subteCenterNodeRed-dev:
+    image: npersia/nodered-dev
+    ports:
+        - "8002:1880"
+    links:
+        - "subteCenterRedis-dev:redissubtecenter"
+    volumes:
+        - "./myfiles/subteCenter/nodeRed/data:/data"
