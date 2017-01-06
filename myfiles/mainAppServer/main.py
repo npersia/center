@@ -8,7 +8,7 @@ def index():
     temp = "27"
     lugar = "Parque Chacabuco, Buenos Aires"
     estado_clima = "Soleado"
-    prob_lluvia = "15"
+    #prob_lluvia = "15"
     porc_humedad = "30"
     vel_viento = "23"
     
@@ -18,11 +18,13 @@ def index():
     temp = weatherResp["temp"]
     lugar = weatherResp["city"]
     estado_clima = weatherResp["weather"]
-    prob_lluvia = "15"
-    porc_humedad = "30"
+    #prob_lluvia = "15"
+    porc_humedad = weatherResp["hum"]
     vel_viento = weatherResp["wind"]
-    print ("hola")
-    return template("./page/center.html",t_weather_icon=weather_icon,t_temp=temp,t_lugar=lugar,t_estado_clima=estado_clima,t_prob_lluvia=prob_lluvia,t_porc_humedad=porc_humedad,t_vel_viento=vel_viento)
+
+
+
+    return template("./page/center.html",t_weather_icon=weather_icon,t_temp=temp,t_lugar=lugar,t_estado_clima=estado_clima,t_porc_humedad=porc_humedad,t_vel_viento=vel_viento)
 
 
 @route('/static/<filepath:path>')
