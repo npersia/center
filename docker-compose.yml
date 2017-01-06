@@ -8,7 +8,7 @@ weatherCenterNodeRed-dev:
     links:
         - "weatherCenterRedis-dev:redisweathercenter"
     volumes:
-        - "/tmp/center/myfiles/weatherCenter/nodeRed/data:/data"
+        - "./myfiles/weatherCenter/nodeRed/data:/data"
 
 mainAppServer-dev:
     image: npersia/bottle-dev
@@ -17,4 +17,4 @@ mainAppServer-dev:
     links:
         - "weatherCenterNodeRed-dev:noderedweather"
     volumes:
-        - "/tmp/center/myfiles/mainAppServer:/myfiles"
+        - "./myfiles/mainAppServer:/myfiles"
