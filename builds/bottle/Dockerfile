@@ -4,4 +4,4 @@ RUN pip install bottle
 RUN pip install requests 
 
 
-CMD ["/bin/bash"]
+CMD ["python","/myfiles/main.py"]

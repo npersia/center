@@ -24,12 +24,12 @@ def index():
 
 
 
-    return template("./page/center.html",t_weather_icon=weather_icon,t_temp=temp,t_lugar=lugar,t_estado_clima=estado_clima,t_porc_humedad=porc_humedad,t_vel_viento=vel_viento)
+    return template("/myfiles/page/center.html",t_weather_icon=weather_icon,t_temp=temp,t_lugar=lugar,t_estado_clima=estado_clima,t_porc_humedad=porc_humedad,t_vel_viento=vel_viento)
 
 
 @route('/static/<filepath:path>')
 def server_static(filepath):
-    return static_file(filepath, root='static')
+    return static_file(filepath, root='/myfiles/static')
 
 @error(404)
 def error404(error):
