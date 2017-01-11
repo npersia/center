@@ -1,0 +1,34 @@
+weatherCenterRedis-dev:
+    image: npersia/redis-dev
+
+weatherCenterNodeRed-dev:
+    image: npersia/nodered-dev
+    ports:
+        - "8001:1880"
+    links:
+        - "weatherCenterRedis-dev:redisweathercenter"
+    volumes:
+        - "./myfiles/weatherCenter/nodeRed/data:/data"
+
+mainAppServer-dev:
+    image: npersia/bottle-dev
+    ports:
+        - "8000:8000"
+    links:
+        - "weatherCenterNodeRed-dev:noderedweathercenter"
+    volumes:
+        - "./myfiles/mainAppServer:/myfiles"
+
+
+
+subteCenterRedis-dev:
+    image: npersia/redis-dev
+
+subteCenterNodeRed-dev:
+    image: npersia/nodered-dev
+    ports:
+        - "8002:1880"
+    links:
+        - "subteCenterRedis-dev:redissubtecenter"
+    volumes:
+        - "./myfiles/subteCenter/nodeRed/data:/data"
