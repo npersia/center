@@ -1,6 +1,3 @@
-subteCenterRedis-dev:
-    image: npersia/redis-dev
-
 subteCenterNodeRed-dev:
     image: npersia/nodered-dev
     ports:
