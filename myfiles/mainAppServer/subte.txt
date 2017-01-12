@@ -1,0 +1,177 @@
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="right-bar-item-container">
+              <h1 class="text-primary">Subte</h1>
+              <h3 class="sectionHeader">ESTADO ACTUAL DEL SERVICIO</h3>
+              <table class="table" style="margin-bottom: 5px;">
+                <tbody>
+                  <tr>
+                    <td colspan="3" style="padding: 0; border-top: none;">
+                      <div class="sectionHeader subwayLineRow"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 10px;">
+                      <img src="http://www.metrovias.com.ar/images/subwayContent/linea_A.png"
+                      alt="Linea A" style="width: 25px;">
+                    </td>
+                    <td>Línea A</td>
+                    <td class="estado " style="" id="status-line-A-container">
+                      <div style="float: right;">
+                        <span class="iconoEstado"></span>
+                        <span id="status-line-A">
+                          <font color="#33cc00">
+                            <strong>Normal</strong>
+                          </font>
+                        </span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 10px;">
+                      <img src="http://www.metrovias.com.ar/images/subwayContent/linea_B.png"
+                      alt="Linea B" style="width: 25px;">
+                    </td>
+                    <td>Línea B</td>
+                    <td class="estado " style="" id="status-line-B-container">
+                      <div style="float: right;">
+                        <span class="iconoEstado"></span>
+                        <span id="status-line-B">
+                          <font color="#33cc00">
+                            <strong>Normal</strong>
+                          </font>
+                        </span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 10px;">
+                      <img src="http://www.metrovias.com.ar/images/subwayContent/linea_C.png"
+                      alt="Linea C" style="width: 25px;">
+                    </td>
+                    <td>Línea C</td>
+                    <td class="estado " style="" id="status-line-C-container">
+                      <div style="float: right;">
+                        <span class="iconoEstado"></span>
+                        <span id="status-line-C">
+                          <font color="#33cc00">
+                            <strong>Normal</strong>
+                          </font>
+                        </span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 10px;">
+                      <img src="http://www.metrovias.com.ar/images/subwayContent/linea_D.png"
+                      alt="Linea D" style="width: 25px;">
+                    </td>
+                    <td>Línea D</td>
+                    <td class="estado " style="" id="status-line-D-container">
+                      <div style="float: right;">
+                        <span class="iconoEstado"></span>
+                        <span id="status-line-D">
+                          <font color="#33cc00">
+                            <strong>Normal</strong>
+                          </font>
+                        </span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 10px;">
+                      <img src="http://www.metrovias.com.ar/images/subwayContent/linea_E.png"
+                      alt="Linea E" style="width: 25px;">
+                    </td>
+                    <td>Línea E</td>
+                    <td class="estado " style="" id="status-line-E-container">
+                      <div style="float: right;">
+                        <span class="iconoEstado"></span>
+                        <span id="status-line-E">
+                          <font color="#33cc00">
+                            <strong>Normal</strong>
+                          </font>
+                        </span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 10px;">
+                      <img src="http://www.metrovias.com.ar/images/subwayContent/linea_H.png"
+                      alt="Linea H" style="width: 25px;">
+                    </td>
+                    <td>Línea H</td>
+                    <td class="estado " style="" id="status-line-H-container">
+                      <div style="float: right;">
+                        <span class="iconoEstado"></span>
+                        <span id="status-line-H">
+                          <font color="#33cc00">
+                            <strong>Normal</strong>
+                          </font>
+                        </span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="padding: 0; border-top: none;">
+                      <div class="sectionHeader subwayLineRow"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 10px;">
+                      <img src="http://www.metrovias.com.ar/images/subwayContent/linea_P.png"
+                      alt="Linea P" style="width: 25px;">
+                    </td>
+                    <td>Línea P</td>
+                    <td class="estado " style="" id="status-line-P-container">
+                      <div style="float: right;">
+                        <span class="iconoEstado"></span>
+                        <span id="status-line-P">
+                          <font color="#33cc00">
+                            <strong>Normal</strong>
+                          </font>
+                        </span>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="3" style="padding: 0; border-top: none;">
+                      <div class="sectionHeader subwayLineRow"></div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="width: 10px;">
+                      <img src="http://www.metrovias.com.ar/images/subwayContent/linea_U.png"
+                      alt="Linea U" style="width: 25px;">
+                    </td>
+                    <td>Línea U</td>
+                    <td class="estado " style="" id="status-line-U-container">
+                      <div style="float: right;">
+                        <span class="iconoEstado"></span>
+                        <span id="status-line-U"><font color="#33cc00">
+                            <strong>Normal</strong>
+                          </font></span>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <h1 class="text-primary">A title</h1>
+            <h3>A subtitle</h3>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+              ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
+              dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
+              nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+              Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In
+              enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum
+              felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus
+              elementum semper nisi.</p>
+          </div>
+        </div>
+      </div>
+    </div>
