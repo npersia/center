@@ -10,20 +10,19 @@ weatherCenterNodeRed-dev:
     volumes:
         - "./myfiles/weatherCenter/nodeRed/data:/data"
 
-mainAppServer-dev:
-    image: npersia/bottle-dev
-    ports:
-        - "8000:8000"
-    links:
-        - "weatherCenterNodeRed-dev:noderedweathercenter"
-    volumes:
-        - "./myfiles/mainAppServer:/myfiles"
-
-
-
 subteCenterNodeRed-dev:
     image: npersia/nodered-dev
     ports:
         - "8002:1880"
     volumes:
         - "./myfiles/subteCenter/nodeRed/data:/data"
+
+mainAppServer-dev:
+    image: npersia/bottle-dev
+    ports:
+        - "8000:8000"
+    links:
+        - "weatherCenterNodeRed-dev:noderedweathercenter"
+        - "subteCenterNodeRed-dev:noderedsubtecenter"
+    volumes:
+        - "./myfiles/mainAppServer:/myfiles"
