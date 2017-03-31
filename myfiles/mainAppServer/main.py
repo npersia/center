@@ -13,7 +13,7 @@ def index():
     porc_humedad = "30"
     vel_viento = "23"
     
-    weatherResp = weather.getWeather("-34.6421149","-58.4612144")
+    weatherResp = weather.getWeather("-34.5638807","-58.4620623,17")
     
     weather_icon = weatherResp["icon"]
     temp = weatherResp["temp"]
